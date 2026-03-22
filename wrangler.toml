@@ -1,0 +1,12 @@
+name = "strava-activities-webhook"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "STRAVA_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
+
+[vars]
+GOOGLE_SHEET_NAME = "Activities"
