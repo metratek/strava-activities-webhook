@@ -1,0 +1,19 @@
+# Strava OAuth App credentials (https://www.strava.com/settings/api)
+STRAVA_CLIENT_ID=your_client_id
+STRAVA_CLIENT_SECRET=your_client_secret
+
+# Arbitrary string you choose — used to verify Strava webhook subscription
+STRAVA_VERIFY_TOKEN=your_random_verify_token
+
+# Your Strava athlete ID (numeric)
+STRAVA_ATHLETE_ID=your_athlete_id
+
+# Google service account credentials (from downloaded JSON key file)
+GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service@your-project.iam.gserviceaccount.com
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_KEY_HERE\n-----END PRIVATE KEY-----\n"
+
+# Google Spreadsheet ID (from the sheet URL)
+GOOGLE_SPREADSHEET_ID=your_spreadsheet_id
+
+# Secret to protect the /backfill endpoint
+BACKFILL_SECRET=your_backfill_secret
